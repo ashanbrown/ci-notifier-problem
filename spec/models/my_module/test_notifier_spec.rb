@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe TestNotifier do
+describe MyModule::TestNotifier do
   it "sends something" do
     expect {
       described_class.delay.notify
